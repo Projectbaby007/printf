@@ -1,36 +1,11 @@
 #include <unistd.h>
-#include "main.h"
 
 /**
- * _putchar - writemain.h  README.md
-root@4b9994fe0b79:/printf# vi _putchar.c
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#include <unistd.h>
-#include "main.h"
- a character to stdout
- * @c: character to stdout
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: On success 1 else -1
+ * Return: On success 1
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c)
 {
